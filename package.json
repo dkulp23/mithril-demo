@@ -1,0 +1,19 @@
+{
+  "name": "mithril-demo",
+  "version": "1.0.0",
+  "description": "testing out the mithril framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack src/index.js bin/app.js -d --watch",
+    "build": "webpack src/index.js bin/app.js -p",
+    "heroku-postbuild": "webpack -p",
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "^1.1.1",
+    "webpack": "^2.5.1"
+  }
+}
